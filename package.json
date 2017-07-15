@@ -10,13 +10,9 @@
     "start": "webpack-dev-server --inline",
     "start-tests": "webpack-dev-server --config webpack.test.config.js 'mocha-loader!./lib/chapter9/index.spec.js' --inline"
   },
-  "repository": "https://github.com/aendrew/learning-d3-v4.git",
   "keywords": [],
   "author": "Ændrew Rininsland <aendrew@aendrew.com>",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/aendrew/learning-d3-v4/issues"
-  },
   "homepage": "https://github.com/aendrew/learning-d3-v4",
   "devDependencies": {
     "babel-core": "^6.18.2",
@@ -47,7 +43,6 @@
   },
   "dependencies": {
     "@types/d3": "^4.5.0",
-    "@types/d3-sankey": "github:aendrew/d3-sankey",
     "@types/lodash": "^4.14.62",
     "@types/node": "^7.0.5",
     "axios": "^0.15.3",
