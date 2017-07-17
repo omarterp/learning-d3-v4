@@ -2,21 +2,24 @@ html, body {
   padding: 0;
   margin: 0;
   font-family: sans-serif;
-<<<<<<< HEAD
 }
+
+
 
 /* @TODO Update ch. 1 to remove axis stylings(?) and add font decs */
 
 text {
   font-family: sans-serif;
-=======
->>>>>>> e3e7c2030a5c7f7a2060e2db44101698fcda6a9c
 }
 
-/* @TODO Update ch. 1 to remove axis stylings(?) and add font decs */
+.axis path,  .axis line {
+  fill: none;
+  stroke: #eee;
+  shape-rendering: crispEdges;
+}
 
-text {
-  font-family: sans-serif;
+.axi text {
+  font-size: 11px;
 }
 
 .bar {
