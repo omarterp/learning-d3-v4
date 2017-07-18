@@ -67,7 +67,7 @@ module.exports = [
   // {
   //   name: 'server',
   //   entry: {
-  //     app: ['./lib/chapter8/index.js'],
+  //     app: ['./lib/chapter8/index-orig.js'],
   //   },
   //
   //   target: 'node',
