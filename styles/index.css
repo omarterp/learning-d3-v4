@@ -28,6 +28,7 @@ text {
 
 .trippy {
   animation: wheee 3s infinite;
+  fill: green  !important
 }
 
 @keyframes wheee {

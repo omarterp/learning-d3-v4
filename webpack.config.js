@@ -14,7 +14,7 @@ module.exports = [
   {
     // name: 'client',
     entry: {
-      app: ['./lib/main.js'], // This is the main file that gets loaded first; the "bootstrap", if you will.
+      app: ['./lib/main-ch1and2.js'], // This is the main file that gets loaded first; the "bootstrap", if you will.
     },
 
     output: { // Transpiled and bundled output gets put in `build/bundle.js`.
